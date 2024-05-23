@@ -1,3 +1,6 @@
+require_relative '../checkout'
+require_relative '../item'
+
 describe Checkout do
   describe '#total_price' do
     context 'when there are no promotions' do
